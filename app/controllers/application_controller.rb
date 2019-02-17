@@ -9,4 +9,8 @@ class ApplicationController < Sinatra::Base
 
   end
 
+  post "/recipe" do 
+
+  end 
+
 end
