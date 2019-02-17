@@ -14,10 +14,10 @@ class ApplicationController < Sinatra::Base
     if recipe
       recipe.save
       redirect "/recipe/#{recipe.id}"
-    end 
+    end
   end
 
-  get "/recipe/:id" do 
+  get "/recipe/:id" do
 
   end 
 
