@@ -5,6 +5,10 @@ class ApplicationController < Sinatra::Base
   end
 
   # code actions here!
+  get "/recipes" do 
+
+  end 
+  
   get "/recipes/new" do
     erb :"/recipes/new"
   end
@@ -41,4 +45,5 @@ class ApplicationController < Sinatra::Base
     @recipe.destroy
     redirect "/recipes"
   end
+
 end
