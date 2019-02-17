@@ -17,4 +17,8 @@ class ApplicationController < Sinatra::Base
     end 
   end
 
+  get "/recipe/:id" do 
+
+  end 
+
 end
