@@ -7,6 +7,7 @@ class ApplicationController < Sinatra::Base
   # code actions here!
   get "/recipes" do
     @recipes = Recipe.all
+    erb :recipes
   end
 
   get "/recipes/new" do
