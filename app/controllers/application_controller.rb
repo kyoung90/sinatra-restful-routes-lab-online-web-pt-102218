@@ -5,11 +5,11 @@ class ApplicationController < Sinatra::Base
   end
 
   # code actions here!
-  get "/recipe/new" do 
+  get "/recipe/new" do
 
   end
 
-  post "/recipe" do 
+  post "/recipe" do
 
   end 
 
