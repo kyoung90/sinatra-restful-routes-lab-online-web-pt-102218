@@ -14,6 +14,7 @@ class ApplicationController < Sinatra::Base
     if recipe
       recipe.save
       redirect "/recipe/#{recipe.id}"
+    end 
   end
 
 end
